@@ -1,0 +1,23 @@
+.HotToast {
+  transition: .43s all;
+}
+
+.HotToast .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+}
+
+.HotToast.close svg {
+  display: block;
+}
+
+.HotToast div[role='status'] {
+  text-align: left !important;
+  justify-content: flex-start;
+  font-weight: 500;
+}

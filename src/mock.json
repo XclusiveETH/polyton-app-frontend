@@ -1,0 +1,55 @@
+{
+    "user_info": {
+      "mover_balance": "4.805414",
+      "mover_price": "1000000",
+      "cohort": { "number": 2 },
+      "is_in_whitelist": true
+    },
+    "timers": [
+      { "type": "PRIMARY", "caption": "Zero", "remaining_seconds": 38349 },
+      {
+        "type": "SECONDARY",
+        "caption": "First wave",
+        "remaining_seconds": 86399
+      },
+      {
+        "type": "SECONDARY",
+        "caption": "Second wave",
+        "remaining_seconds": 86399
+      },
+      { "type": "SECONDARY", "caption": "Third wave", "remaining_seconds": 86399 }
+    ],
+    "market_metrics": [
+      { "caption": "TON Contributed", "value": "20000000", "code": "1" },
+      { "caption": "POLYTON Sold", "value": "15000000", "code": "2" },
+      { "caption": "POLYTON Remaining For Sale", "value": "600000", "code": "3" }
+    ],
+    "cohorts_info": [
+      {
+        "title": "First wave",
+        "time_start": "2022-11-12T00:00:00",
+        "time_end": "2022-11-12T23:59:59",
+        "max_amount": 10000
+      },
+      {
+        "title": "Second wave",
+        "time_start": "2022-11-13T00:00:00",
+        "time_end": "2022-11-13T23:59:59",
+        "max_amount": 50000
+      },
+      {
+        "title": "Third wave",
+        "time_start": "2022-11-14T00:00:00",
+        "time_end": "2022-11-14T23:59:59",
+        "max_amount": 70000
+      },
+      {
+        "title": "Zero",
+        "time_start": "2022-11-11T00:00:00",
+        "time_end": "2022-11-11T23:59:59",
+        "max_amount": 1000
+      }
+    ],
+    "aptos_current_price": "5.16"
+  }
+  

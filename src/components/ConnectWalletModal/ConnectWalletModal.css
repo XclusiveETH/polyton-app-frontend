@@ -1,0 +1,95 @@
+
+.connectWalletModal-wallets {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    overflow: auto;
+    height: 500px;
+    max-height: 100vh;
+
+    padding-right: 24px;
+    margin-right: -24px;
+
+    color: #fff;
+}
+
+.connectWalletModal-wallets::-webkit-scrollbar {
+    width: 1px;
+}
+.connectWalletModal-wallets::-webkit-scrollbar-thumb {
+    background: rgb(153, 154, 154);
+}
+
+.connectWalletModal-wallets::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.connectWalletModal-wallet:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.connectWalletModal-wallet {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px 24px;
+
+    border: 1px solid #707070;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.connectWalletModal-wallet-icon {
+    margin-right: 16px;
+    height: 32px;
+    width: 32px;
+}
+
+.connectWalletModal-wallet-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.connectWalletModal-wallet-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.connectWalletModal-wallet-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.connectWalletModal-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+}
+
+.connectWalletModal-subtitle {
+    width: 100%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}

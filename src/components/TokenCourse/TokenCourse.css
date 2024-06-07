@@ -1,0 +1,112 @@
+.tokenCourse {
+    background: #1F1F1F;
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+
+}
+
+.tokenCourse-wallet {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    margin-right: 32px;
+}
+
+.tokenCourse-course {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 21px 24px 24px 24px;
+}
+
+.tokenCourse-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.tokenCourse-text:first-child {
+    width: 40%;
+}
+
+.tokenCourse-text:last-child {
+    width: 40%;
+    justify-content: flex-end;
+}
+
+.tokenCourse-cohort {
+    display: flex;
+    justify-content: center;
+
+    background: radial-gradient(77.58% 77.58% at 77.12% 22.42%, #454545 0%, #272727 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-bottom: 1px solid #4F4F4F;
+    border-radius: 12px 12px 0px 0px;
+
+    padding: 17px 0px 18px 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tokenCourse-cohortBtn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #17171A;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    padding: 14px;
+    width: 160px;
+    height: 55px;
+}
+
+@media screen and (max-width: 500px) {
+    .tokenCourse-cohort {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tokenCourse-wallet {
+        margin-bottom: 14px;
+    }
+
+    .tokenCourse-cohortBtn {
+        width: 100%;
+    }
+}

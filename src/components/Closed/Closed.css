@@ -1,0 +1,39 @@
+.closed {
+    position: relative;
+}
+
+.closed-text {
+    padding: 65px;
+
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.closed-text b {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.closed-background {
+    position: absolute;
+
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    border-radius: 50%;
+    background: radial-gradient(73.51% 73.51% at 82.14% 15.92%, #00D1FF 19.79%, #009FFF 100%);
+    filter: blur(100px);
+
+    animation: 5s ease-in-out infinite;
+    animation-name: background;
+}

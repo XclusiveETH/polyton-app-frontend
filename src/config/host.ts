@@ -1,0 +1,1 @@
+export const host = 'https://ido-back-stage-prz8b.ondigitalocean.app';

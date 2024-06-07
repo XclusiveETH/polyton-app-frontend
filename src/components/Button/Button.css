@@ -1,0 +1,44 @@
+.button {
+    width: 100%;
+
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_view_default {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #17171A;
+
+    background: linear-gradient(90deg, #59FFEB 0%, #14C7FF 100%);
+    border-radius: 10px;
+
+    padding: 18.5px 0;
+}
+
+.button_view_icon {
+    width: 32px;
+    height: 32px;
+    background: #E8E8E8;
+    border-radius: 8px;
+}
+
+.button_view_icon:hover {
+    background: hsla(0,0%,91%,.6);
+}
+
+.button:disabled {
+    background: #EAEAEA;
+    color: #949494;
+    cursor: unset;
+}

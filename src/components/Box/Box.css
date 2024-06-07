@@ -1,0 +1,30 @@
+.box {
+    background: #1F1F1F;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+
+    margin-bottom: 24px;
+}
+
+.box-header {
+    background: radial-gradient(77.58% 77.58% at 77.12% 22.42%, #454545 0%, #272727 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-bottom: 1px solid #4F4F4F;
+    border-radius: 12px 12px 0px 0px;
+
+    padding-top: 18px;
+    padding-bottom: 17px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}

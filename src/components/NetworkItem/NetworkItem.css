@@ -1,0 +1,56 @@
+
+.networkItem_selected {
+    background: linear-gradient(90deg, #59FFEB 0%, #14C7FF 100%)!important;
+}
+
+.networkItem {
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+
+    height: 48px;
+
+    padding: 6px 30px 6px 16px;
+    
+    background: #EAEAEA;
+    border-radius: 10px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.networkItem_selected .networkItem-icon {
+    background-color: #fff;
+}
+
+.networkItem-icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    margin-right: 8px;
+}
+
+.networkItem-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.networkItem-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.networkItem-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #17171A;
+}

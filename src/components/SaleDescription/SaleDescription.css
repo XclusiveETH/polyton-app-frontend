@@ -1,0 +1,42 @@
+.saleDescription {
+    background: #1F1F1F;
+    border: 1px solid #595959;
+    border-radius: 12px;
+
+    padding: 32px 14px 24px 14px;
+}
+
+.saleDescription-title {
+    margin-left: 10px;
+    margin-bottom: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.saleDescriptionItem {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.7);
+
+    padding: 8px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.saleDescriptionItem_selected {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}

@@ -1,0 +1,68 @@
+.saleTimer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px 24px 24px 24px;
+}
+
+.saleTimer-timerLabel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.timer {
+    display: flex;
+
+    margin-top: 16px;
+}
+
+.timer-item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.timer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-value {
+    background: #fff;
+    border-radius: 4px;
+
+    width: 64px;
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+
+    color: #17171A;
+}
+
+.timer-label {
+    margin-top: 8px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}

@@ -1,0 +1,92 @@
+.chart-content {
+    height: 326px;
+    width: 100%;
+    position: relative;
+}
+
+.chart-content text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    fill: rgba(255, 255, 255, 0.7);
+}
+
+.chart-delay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.chart-firstLine path[name="firstLine"] {
+    stroke: #59FFEB;
+}
+
+.chart-secondLine path {
+    stroke: #fff;
+}
+
+.chart-currPrice {
+    width: 66px;
+    height: 40px;
+
+    background: linear-gradient(90deg, #59FFEB 0%, #14C7FF 100%);
+}
+
+.chart-content .chart-currPriceText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+
+    fill: #17171A;
+}
+
+.chart-dot {
+    
+}
+
+.chartDot-background {
+    background: radial-gradient(73.51% 73.51% at 82.14% 15.92%, #00D1FF 19.79%, #009FFF 100%);
+    filter: blur(0px);
+    animation: 4s ease-in-out infinite;
+    animation-name: chartDotBackground;
+}
+
+
+.chartDot-background2 {
+    background: radial-gradient(73.51% 73.51% at 82.14% 15.92%, #00D1FF 19.79%, #009FFF 100%);
+    filter: blur(0px);
+    animation: 4s 2s ease-in-out infinite;
+    animation-name: chartDotBackground;
+}
+
+@keyframes chartDotBackground {
+    0% {
+        filter: blur(0px)
+    }
+    50% {
+        filter: blur(10px)
+    }
+    100% {
+        filter: blur(0px)
+    }
+}
+
+.recharts-tooltip-cursor {
+    stroke-dasharray: 3;
+    stroke: #787878!important;
+}
+
+.recharts-cartesian-axis-tick-line {
+    display: none;
+}
+
+.recharts-tooltip-wrapper {
+    display: none;
+}

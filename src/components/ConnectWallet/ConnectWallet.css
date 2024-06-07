@@ -1,0 +1,259 @@
+.connectWallet-container {
+    display: flex;
+    align-items: center;
+
+    z-index: 10;
+}
+
+
+.connectWallet-wrapper {
+    position: relative;
+    max-width: 240px;
+    max-height: 52px;
+}
+
+.connectWallet-container .connectWallet-wrapper:first-child {
+    margin-right: 8px;
+}
+
+.connectWallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: auto;
+    max-height: 500px;
+    
+    width: 100%;
+    height: 52px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px 20px;
+
+    cursor: pointer;
+    z-index: 10;
+
+    overflow: hidden!important;
+}
+
+.connectWallet-wrapper:not(.connectWallet-wrapper_selected) {
+    max-width: 52px;
+}
+
+.connectWallet-wrapper.connectWallet-wrapper_selected .connectWallet {
+    width: 240px;
+}
+
+.connectWallet-wrapper:not(.connectWallet-wrapper_selected) .connectWallet-title {
+    display: none;
+}
+
+.connectWallet-wrapper:not(.connectWallet-wrapper_selected) .connectWallet-opener {
+    display: none;
+}
+
+.connectWallet-wrapper:not(.connectWallet-wrapper_selected) .connectWallet-dropdown {
+    display: none;
+}
+
+.connectWallet-dropdown {
+    width: 100%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    padding: 12px;
+    margin-top: 12px;
+
+    transition: all .5s ease;
+    z-index: -1;
+    opacity: 0; 
+    transform: translateY(-15px) translateZ(0px);
+}
+
+.connectWallet-dropdown_show {
+    display: block;
+    opacity: 1; 
+    z-index: 100;
+    transform: translateY(0px) translateZ(0px);
+}
+
+.connectWallet_connected {
+    justify-content: space-between;
+    padding: 10px 16px 10px 15px;
+}
+
+.connectWallet-left {
+    display: flex;
+    align-items: center;
+}
+
+.connectWallet-wrapper.connectWallet-wrapper_selected .connectWallet-left svg {
+    margin-right: 8px;
+}
+
+.connectWallet-left img {
+    width: 24px;
+    height: 24px;
+    margin-right: 11px;
+}
+
+.connectWallet-left svg {
+    width: 24px;
+    height: 24px;
+}
+
+.connectWallet-icon {
+    margin-right: 8px;
+
+    width: 24px;
+    height: 24px;
+}
+
+.connectWallet-iconWrapper {
+    position: relative;
+    display: flex;
+}
+
+.connectWallet-networkIcon {
+    position: absolute;
+    right: -1px;
+    bottom: -3px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+}
+
+.connectWallet-wrapper:not(.connectWallet-wrapper_selected) .connectWallet-networkIcon {
+   right: -9px;
+}
+
+.connectWallet-networkIcon svg, .connectWallet-networkIcon img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0!important;
+}
+
+.connectWallet-opener {
+    cursor: pointer;
+}
+
+.connectWallet-opener_rotate {
+    transform: rotate(180deg);
+}
+
+.connectWallet-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1E1E1E;
+}
+
+.connectWalletContent {
+}
+
+.connectWalletContent-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connectWalletContent-status {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+
+    margin-right: 4px;
+}
+
+.connectWalletContent-status_connected {
+    background: #10DA24;
+}
+
+.connectWalletContent-actions {
+    display: flex;
+    align-items: center;
+}
+
+.connectWalletContent-actions .button:first-child {
+    margin-right: 8px;
+}
+
+
+.connectWalletContent-address {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #1E1E1E;
+}
+
+.connectWalletContent-top {
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+.connectWalletContent-switch {
+    margin-top: 20px;
+    margin-bottom: 12px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.connectWalletContent-switch button {
+    width: 155px;
+
+    padding: 7px 16px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #17171A;
+}
+
+.connectWalletContent-balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.connectWalletContent-apt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #17171A;
+}
+
+.connectWalletContent-usdc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #6D6D6D;
+}

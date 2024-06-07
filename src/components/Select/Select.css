@@ -1,0 +1,186 @@
+.select {
+    width: 160px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.select-item {
+    display: flex;
+    align-items: center;
+}
+
+.select-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 7px;
+
+    position: relative;
+}
+
+.select-item-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.select-networkIcon {
+    position: absolute;
+    bottom: -1px;
+    right: -5px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+}
+
+.select-networkIcon svg, .select-networkIcon img {
+    width: 15px;
+    height: 15px;
+}
+
+.select-item-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #17171A;
+}
+
+.select-angle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.select-angle.select-angle_rotate svg {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1240px) {
+    .select {
+        width: 100px;
+    }
+}
+
+
+.selectDropdown {
+    position: absolute;
+    z-index: 1000;
+
+    width: 100%;
+
+    top: calc(100% + 8px);
+    left: 0px;
+
+    padding: 16px 24px;
+    border-radius: 10px;
+
+    background: #fff;
+}
+
+@media screen and (max-width: 1250px) {
+    .selectDropdown {
+        height: 330px;
+        overflow: scroll;
+    }
+}
+
+.selectDropdown-close {
+    position: absolute;
+    right: 22px;
+    top: 22px;
+    cursor: pointer;
+}
+
+.selectDropdown-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #17171A;
+
+    margin-bottom: 16px;
+}
+
+.selectDropdown-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #4F4F4F;
+
+    margin-bottom: 16px;
+}
+
+.selectDropdown-networks {
+}
+
+.selectDropdown-networks-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selectDropdownTokenItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.selectDropdownTokenItem:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.selectDropdownTokenItem-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.selectDropdownTokenItem-token {
+    display: flex;
+    align-items: center;
+}
+
+.selectDropdownTokenItem-description {
+    margin-left: 8px;
+}
+
+.selectDropdownTokenItem-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #17171A;
+}
+
+.selectDropdownTokenItem-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #4F4F4F;
+}

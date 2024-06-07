@@ -1,0 +1,58 @@
+body {
+    background-color: #1C1B1D;
+}
+
+.app {
+    width: 100%;
+    max-width: 1240px;
+
+    margin: 0 auto;
+    padding: 24px;    
+}
+
+.app .title {
+    margin-top: 36px;
+}
+
+.app-container {
+    margin-top: 40px;
+    
+    height: calc(100vh - 74px - 24px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-col_info {
+    max-width: 500px;
+    width: 100%;
+
+    z-index: 2;
+}
+
+.app-col .tokenCourse, .app-col .saleStart {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1240px) {
+    .app-container {
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .app-container {
+        height: calc(100vh - 185px - 48px);
+    }
+}

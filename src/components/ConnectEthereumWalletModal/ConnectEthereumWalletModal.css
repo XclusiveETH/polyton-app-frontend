@@ -1,0 +1,60 @@
+
+.connectEthereumWalletModal-wallets {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    color: #fff;
+}
+
+.connectEthereumWalletModal-wallet:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.connectEthereumWalletModal-wallet {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px 24px;
+
+    border: 1px solid #707070;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.connectEthereumWalletModal-wallet-icon {
+    margin-right: 16px;
+    height: 32px;
+    width: 32px;
+}
+
+.connectEthereumWalletModal-wallet-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.connectEthereumWalletModal-wallet-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.connectEthereumWalletModal-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+}

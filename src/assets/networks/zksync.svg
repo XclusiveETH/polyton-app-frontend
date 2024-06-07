@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 84 48" fill="none"><script xmlns="" type="text/javascript" src="chrome-extension://fiikommddbeccaoicoejoniammnalkfa/inject.js"/>
+<g clip-path="url(#clip0_180_26899)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M83.3077 23.5583L59.6755 0.00878906V17.2553L36.2109 34.5231L59.6755 34.5393V47.1077L83.3077 23.5583Z" fill="#4E529A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-0.00292969 23.5495L23.6292 47.0989V29.9911L47.094 12.5845L23.6292 12.5684V0L-0.00292969 23.5495Z" fill="#8C8DFC"/>
+</g>
+<defs>
+<clipPath id="clip0_180_26899">
+<rect width="240" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>
